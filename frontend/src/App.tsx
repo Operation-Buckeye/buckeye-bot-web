@@ -23,6 +23,7 @@ return (
       <title>Buckeye Bots</title>
 
       <body>
+        <div>
         <header className="header">
             <div className="brand">
                 <button onClick={openMenu}>&#9776;</button>
@@ -57,8 +58,10 @@ return (
         <footer>
             &copy; 2024 Buckeye Bots
         </footer>
+        </div>
         </body>
       </div>
+      
     </Router>
   );
 }
