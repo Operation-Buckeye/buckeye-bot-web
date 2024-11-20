@@ -1,4 +1,4 @@
-export default {
+const product = {
     products: [{
         name: 'Shirt',
         imageUrl: '/images/d1.jpg',
@@ -22,3 +22,4 @@ export default {
         percentPolyester: 30,
     }]
 }
+export default product
